@@ -3,7 +3,8 @@ description: A dart CLI to use newsapi.org API's
 version: 0.0.1
 homepage: https://github.com/rshrc/news_cli
 author: rshrc <rishieric91@gmail.com>
-publish_to: none
+environment:
+  sdk: ">=2.0.0 <3.0.0"
 
 dependencies:
-  http: any
+  http: ^0.12.0+1

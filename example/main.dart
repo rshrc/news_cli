@@ -1,7 +1,8 @@
 import 'dart:async';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:news_cli/src/news_cli.dart';
+
+import 'package:news_cli/src/get_news.dart';
 
 String URL =
     "https://newsapi.org/v2/top-headlines?sources=medical-news-today&apiKey=";
@@ -19,7 +20,7 @@ void main(List<String> args) async {
   });
 
   // Testing
-  print(newsData['articles'][0]['title']);
+  print(newsData['articles']);
 }
 
 Future<String> getNews() async {
