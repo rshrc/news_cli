@@ -1,0 +1,9 @@
+name: news_cli
+description: A dart CLI to use newsapi.org API's
+version: 0.0.1
+homepage: https://github.com/rshrc/news_cli
+author: rshrc <rishieric91@gmail.com>
+publish_to: none
+
+dependencies:
+  http: any
